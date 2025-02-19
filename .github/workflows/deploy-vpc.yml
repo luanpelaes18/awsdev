@@ -38,4 +38,4 @@ jobs:
         run: terraform validate
 
       - name: Aplicar Terraform
-        run: terraform destroy
+        run: terraform apply -auto-app
